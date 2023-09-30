@@ -63,6 +63,11 @@ update_interval_climate:
   required: false
   default: 5
   type: time
+display_name:
+  description: The name to be used for the car in the HA UI and entity names
+  required: false
+  default: The car's nickname from the Nissan servers
+  type: string
 {% endconfiguration %}
 
 ## Full configuration sample
